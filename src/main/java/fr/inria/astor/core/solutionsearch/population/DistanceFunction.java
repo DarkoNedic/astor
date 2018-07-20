@@ -10,10 +10,8 @@ import fr.inria.astor.core.entities.ProgramVariant;
  * @author Matias Martinez
  *
  */
-public interface FitnessFunction extends  AstorExtensionPoint {
-	
-	public double getWorstMaxFitnessValue();
+public interface DistanceFunction extends  AstorExtensionPoint {
 
-	public double calculateFitnessValue(ProgramVariant programVariant);
+	public double calculateDistance(ProgramVariant originalVariant, ProgramVariant programVariant);
 	
 }

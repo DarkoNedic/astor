@@ -35,6 +35,12 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
+			
+		<dependency>
+			<groupId>fr.inria.gforge.spoon.labs</groupId>
+			<artifactId>gumtree-spoon-ast-diff</artifactId>
+			<version>1.5</version>
+		</dependency>
 
 
 		<dependency>
@@ -92,13 +98,6 @@
 			<artifactId>CocoSpoon</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
-
-		<dependency>
-			<groupId>fr.inria.gforge.spirals</groupId>
-			<artifactId>nopol</artifactId>
-			<version>0.2-SNAPSHOT</version>
-		</dependency>
-
 
 	</dependencies>
 
